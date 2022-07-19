@@ -1,0 +1,285 @@
+:root{
+    --color--primary: #1E2832;
+    --font--roboto: 'Roboto', sans-serif;
+    --font--open-sans: 'Open Sans', sans-serif;
+    --color--grey: #777777;
+    --color--hot: #FF6F61;
+}
+.header-wrapper{
+    background-color: #F1F1F1;
+}
+/* ======= LOGO ======= */
+.logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 47%;
+    transform: translateX(-50%);
+}
+.logo_text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding-top: 12px;
+}
+.polygon-left{
+    margin-right: 10px;
+}
+.polygon-right{
+    margin-left: 10px;
+}
+/* ======= TEXT MENUBAR ======= */
+.text_li_menu{
+    font-family: 'Poppins', sans-serif;
+}
+/* ======= BANNER ======= */
+.title_banner{
+    font-size: 74px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 55px;
+}
+.account__link{
+    display: inline-block;
+    margin: 0 10px;
+    color: var(--color-primary)
+}
+.account__icon{
+    margin-right: 5px;
+}
+.content_banner{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 55px;
+}
+.btn_shopnow{
+    font-size: 29px;
+    line-height: 55px;
+}
+.image_banner{
+    margin-left: 50px;
+}
+.content_header{
+    padding: 60px 0;
+}
+/* ======= FEATURE PRODUCT ======= */
+.feature-product{
+    margin: 50px 0px;
+}
+.feature-product .container{
+    position: relative;
+}
+.explore{
+    position: absolute;
+    left: -310px;
+    bottom: 290px;
+    transform: rotate(-90deg);
+    font-size: 34px;
+    font-family: var(--font--roboto);
+    z-index: 999;
+}
+.product_image{
+    position: relative;
+    overflow: hidden;
+}
+.product_infor{
+    background-color: var(--color--primary);
+    position: absolute;
+    bottom: -50%;
+    left: 0; right: 0;
+    padding: 15px 0px;
+    transition: ease-in-out 0.3s;
+}
+.product_image:hover .product_infor{
+    bottom: 0;
+}
+.span__item__hover{
+    color: #F1F1F1;
+}
+/* ======= NEW PRODUCT ======= */
+.new__product__tabbar{
+    font-family: var(--font--roboto);
+    color: #000;
+    font-weight: bold;
+}
+.new__product__tabbar ul li:first-child{
+    padding-right: 20px;
+}
+.btn__filter{
+    border-radius: 0;
+}
+.products__content{
+    padding: 25px 0px;
+}
+.product_name{
+    margin: 15px 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.product_descript{
+    font-family: var(--font--open-sans);
+    color: var(--color--grey);
+}
+.product_price{
+    font-weight: 500;
+    font-family: var(--font--open-sans);
+}
+.product_price_new{
+    font-weight: 500;
+    color: var(--color--hot);
+    font-family: var(--font--open-sans);
+}
+.product_price_old {
+    font-weight: 500;
+    color: var(--color--grey);
+    font-family: var(--font--open-sans);
+    text-decoration: line-through;
+    padding-right: 13px;
+}
+.product_sale{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background-color: var(--color--primary);
+    color: #fff;
+    padding: 0px 10px;
+}
+.product_hot{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background-color: var(--color--hot);
+    color: #fff;
+    padding: 0px 10px;
+}
+/* ======= BANNER CENTER ======= */
+.feature__banner__collection{
+    position: relative;
+    overflow: hidden;
+    margin-top: 7%;
+}
+.feature__banner__collection .container{
+    position: absolute;
+    top: 235px;
+    right: 384px;
+}
+.btn__collection{
+    width: 245px;
+    height: 72px;
+    border-radius: 0;
+    font-size: 29px;
+    padding: 12px 0px;
+}
+.zara__logo img{
+    width: 191px;
+    height: 81px;
+}
+.zara__logo__1{
+    position: absolute;
+    right: -40px;
+    top: 80px;
+}
+/* ======= BANNER CENTER ======= */
+.best-sellers{
+    margin-top: 5%;
+}
+/* ======= FOLLOW INSTAGRAM ======= */
+.follow-instagam{
+    margin: 7% 0px;
+    background-color: #F1F1F1;
+}
+.follow-instagam .container{
+    padding-top: 3%;
+}
+.follow-instagam__image img:hover{
+    background: grey;
+}
+.follow-instagam__title h1{
+    padding: 40px 0px;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.follow-instagam__subcribe h1{
+    padding: 40px 0px;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.follow__instagram__email{
+    padding-bottom: 80px;
+}
+.follow__email__content{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #F1F1F1;
+    font-family: var(--font--roboto);
+    font-weight: 500;
+}
+.follow__email__submit{
+    width: 90px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: var(--font--roboto);
+    font-weight: 500;
+}
+.follow__instagram__box__image {
+    position: relative;
+    overflow: hidden;
+    transition: ease-in-out 0.5s;
+}
+.bi-instagram{
+    opacity: 0;
+    color: #fff;
+}
+.bi-instagram{
+    transition: ease-in-out 0.3s;
+}
+.bi-instagram:hover{
+    opacity: 100%;
+    background-color: #000; opacity: 0.4;
+}
+/* ======= FOOTER ======= */
+footer .container{
+    margin: auto;
+}
+.footer__icon{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__title h5{
+    font-size: 16px;
+}
+.footer__list ul{
+    list-style: none;
+}
+.footer__list ul li{
+    padding: 10px 0px;
+}
+.footer__list ul li a{
+    text-decoration: none;
+    color: #292929;
+    font-size: 14px;
+}
+.footer__list ul li a:hover{
+    color: #002794;
+    text-decoration: underline;
+}
+footer .copyright{
+    height: 52px;
+    background-color: #1E2832;
+}
+footer .copyright .container{
+    height: 52px;
+}
+footer .copyright .container img{
+    padding-left: 68px;
+}
+footer .copyright .container a{
+    text-decoration: none;
+}
+.banner__btn{
+    font-size:  17px;
+    border-radius: 0;
+    margin-top: -8px;
+}
